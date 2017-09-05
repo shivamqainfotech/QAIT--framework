@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30766" started-at="2017-09-04T13:18:44Z" finished-at="2017-09-04T13:19:15Z">
+  <suite name="Default suite" duration-ms="48107" started-at="2017-09-05T13:14:28Z" finished-at="2017-09-05T13:15:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30766" started-at="2017-09-04T13:18:44Z" finished-at="2017-09-04T13:19:15Z">
-      <class name="com.qait.tests.LoginPageTest">
-        <test-method status="PASS" signature="oneTimeSetUp()[pri:0, instance:com.qait.tests.LoginPageTest@d8355a8]" name="oneTimeSetUp" is-config="true" duration-ms="8468" started-at="2017-09-04T18:48:44Z" finished-at="2017-09-04T18:48:52Z">
+    <test name="Default test" duration-ms="48107" started-at="2017-09-05T13:14:28Z" finished-at="2017-09-05T13:15:17Z">
+      <class name="com.qait.tests.MMTTest">
+        <test-method status="PASS" signature="oneTimeSetUp()[pri:0, instance:com.qait.tests.MMTTest@4501b7af]" name="oneTimeSetUp" is-config="true" duration-ms="8218" started-at="2017-09-05T18:44:28Z" finished-at="2017-09-05T18:44:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oneTimeSetUp -->
-        <test-method status="PASS" signature="ckickOnHotel()[pri:1, instance:com.qait.tests.LoginPageTest@d8355a8]" name="ckickOnHotel" duration-ms="2412" started-at="2017-09-04T18:48:52Z" finished-at="2017-09-04T18:48:55Z">
+        <test-method status="PASS" signature="ckickOnHotel()[pri:1, instance:com.qait.tests.MMTTest@4501b7af]" name="ckickOnHotel" duration-ms="6274" started-at="2017-09-05T18:44:37Z" finished-at="2017-09-05T18:44:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ckickOnHotel -->
-        <test-method status="PASS" signature="searchForHotel()[pri:2, instance:com.qait.tests.LoginPageTest@d8355a8]" name="searchForHotel" duration-ms="6329" started-at="2017-09-04T18:48:55Z" finished-at="2017-09-04T18:49:01Z">
+        <test-method status="PASS" signature="searchForHotel()[pri:2, instance:com.qait.tests.MMTTest@4501b7af]" name="searchForHotel" duration-ms="10335" started-at="2017-09-05T18:44:43Z" finished-at="2017-09-05T18:44:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForHotel -->
-        <test-method status="PASS" signature="clickSearchButton()[pri:3, instance:com.qait.tests.LoginPageTest@d8355a8]" name="clickSearchButton" duration-ms="4613" started-at="2017-09-04T18:49:01Z" finished-at="2017-09-04T18:49:06Z">
+        <test-method status="PASS" signature="clickSearchButton()[pri:3, instance:com.qait.tests.MMTTest@4501b7af]" name="clickSearchButton" duration-ms="6718" started-at="2017-09-05T18:44:53Z" finished-at="2017-09-05T18:45:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSearchButton -->
-        <test-method status="PASS" signature="clickPriceButton()[pri:4, instance:com.qait.tests.LoginPageTest@d8355a8]" name="clickPriceButton" duration-ms="6609" started-at="2017-09-04T18:49:06Z" finished-at="2017-09-04T18:49:12Z">
+        <test-method status="PASS" signature="clickPriceButton()[pri:4, instance:com.qait.tests.MMTTest@4501b7af]" name="clickPriceButton" duration-ms="13439" started-at="2017-09-05T18:45:00Z" finished-at="2017-09-05T18:45:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickPriceButton -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qait.tests.LoginPageTest@d8355a8]" name="tearDown" is-config="true" duration-ms="2314" started-at="2017-09-04T18:49:12Z" finished-at="2017-09-04T18:49:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qait.tests.MMTTest@4501b7af]" name="tearDown" is-config="true" duration-ms="3092" started-at="2017-09-05T18:45:13Z" finished-at="2017-09-05T18:45:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qait.tests.LoginPageTest -->
+      </class> <!-- com.qait.tests.MMTTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

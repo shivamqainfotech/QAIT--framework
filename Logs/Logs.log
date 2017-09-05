@@ -1,0 +1,11 @@
+| 2017-09-05 18:52:13,263 | Element 'btn_hotel' is displayed.
+| 2017-09-05 18:52:14,384 | User clicked on 'btn_hotel' Button
+| 2017-09-05 18:52:19,421 | Element 'bar_search' is displayed.
+| 2017-09-05 18:52:19,520 | User clicked on 'bar_search' Button
+| 2017-09-05 18:52:24,639 | User entered 'Gwalior' in the text field
+| 2017-09-05 18:52:29,686 | Element 'btn_search' is displayed.
+| 2017-09-05 18:52:32,465 | User clicked on 'btn_search' Button
+| 2017-09-05 18:52:39,183 | Element 'txt_price' is displayed.
+| 2017-09-05 18:52:39,348 | User clicked on 'txt_price' Button
+| 2017-09-05 18:52:45,403 | Element 'btn_range' is displayed.
+| 2017-09-05 18:52:45,697 | User clicked on 'btn_range' Button

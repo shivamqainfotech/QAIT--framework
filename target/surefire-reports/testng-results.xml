@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="47694" started-at="2017-09-05T13:22:00Z" finished-at="2017-09-05T13:22:47Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="47694" started-at="2017-09-05T13:22:00Z" finished-at="2017-09-05T13:22:47Z">
+      <class name="com.qait.tests.MMTTest">
+        <test-method status="PASS" signature="oneTimeSetUp()[pri:0, instance:com.qait.tests.MMTTest@2f7c7260]" name="oneTimeSetUp" is-config="true" duration-ms="8117" started-at="2017-09-05T18:52:00Z" finished-at="2017-09-05T18:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method status="PASS" signature="ckickOnHotel()[pri:1, instance:com.qait.tests.MMTTest@2f7c7260]" name="ckickOnHotel" duration-ms="6170" started-at="2017-09-05T18:52:08Z" finished-at="2017-09-05T18:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ckickOnHotel -->
+        <test-method status="PASS" signature="searchForHotel()[pri:2, instance:com.qait.tests.MMTTest@2f7c7260]" name="searchForHotel" duration-ms="10254" started-at="2017-09-05T18:52:14Z" finished-at="2017-09-05T18:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForHotel -->
+        <test-method status="PASS" signature="clickSearchButton()[pri:3, instance:com.qait.tests.MMTTest@2f7c7260]" name="clickSearchButton" duration-ms="7825" started-at="2017-09-05T18:52:24Z" finished-at="2017-09-05T18:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchButton -->
+        <test-method status="PASS" signature="clickPriceButton()[pri:4, instance:com.qait.tests.MMTTest@2f7c7260]" name="clickPriceButton" duration-ms="13232" started-at="2017-09-05T18:52:32Z" finished-at="2017-09-05T18:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPriceButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qait.tests.MMTTest@2f7c7260]" name="tearDown" is-config="true" duration-ms="2080" started-at="2017-09-05T18:52:45Z" finished-at="2017-09-05T18:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qait.tests.MMTTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

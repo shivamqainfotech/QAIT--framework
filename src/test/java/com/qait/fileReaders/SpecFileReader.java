@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package com.qait.fileReaders;
 
 import java.io.File;
@@ -7,23 +10,47 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import com.qait.pages.BasePage;
+// TODO: Auto-generated Javadoc
+/** 
+ * This class contains all the necessary methods to read the spec file containing the locators (name,type and value ) and
+ * takes selenium WebDriver instance as constructor argument.
+ * @author shivambharadwaj
+ * @since 1.8
+ * 
+ * */
 public class SpecFileReader {
+	
+	/** The driver. */
 	static WebDriver driver;
 
+	/**
+	 * Instantiates a new spec file reader.
+	 *
+	 * @param driver the driver
+	 */
 	public SpecFileReader(WebDriver driver) {
 		this.driver = driver;
 	}
-
+	
+	/**
+	 *  
+	 * This method contains all the necessary steps to read the spec file containing the locators (name,type and value ).
+	 * The Scanner class reads spec file line by line and split it based upon the regular expression.
+	 * It passes the locator type and locator value to the @generateLocators(arg1,arg2) merhod which returns By.
+	 *
+	 * @param locator the locator
+	 * @return the web element
+	 */
 	public static WebElement findLocator(String locator) {
-		String fileName = "D:\\MyWorkspace\\QAIT-Automation-Framework\\resources\\specs\\loginpage.spec";
+		
+		String fileName = "D:\\MyWorkspace\\QAIT-Automation-Framework\\resources\\specs\\mmt.spec";
 
 		try (Scanner scanner = new Scanner(new File(fileName))) {
 
 			while (scanner.hasNext()) {
 				String[] values = scanner.nextLine().split("\\t\\s{2,}");
 				if (values[0].equals(locator)) {
-					// System.out.println(values[1]);
-					// System.out.println(values[2]);
 					return driver.findElement(generateLocators(values[1], values[2]));
 					
 				}
@@ -33,7 +60,16 @@ public class SpecFileReader {
 		}
 		return null;
 	}
-
+	
+	/**
+	 *  
+	 * This method contains all the necessary steps to manupulate the locator type and value.
+	 * A switch statement returns the By according to the Locator type.
+	 *
+	 * @param type the type
+	 * @param value the value
+	 * @return the by
+	 */
 	public static By generateLocators(String type, String value) {
 
 		switch (type.toUpperCase()) {
@@ -58,8 +94,4 @@ public class SpecFileReader {
 		}
 
 	}
-
-	/*public static void main(String args[]) {
-		findLocator("btn_hotel");
-	}*/
 }

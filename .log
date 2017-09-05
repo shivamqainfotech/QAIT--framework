@@ -1,0 +1,3 @@
+2017-09-05 15:45:27 INFO  BasePage:34 - Element '[[ChromeDriver: chrome on XP (644811551962c0b795df9e3e3da1f479)] -> id: header_tab_hotels]' is displayed.
+2017-09-05 15:45:32 INFO  BasePage:34 - User clicked on '[[ChromeDriver: chrome on XP (644811551962c0b795df9e3e3da1f479)] -> id: header_tab_hotels]' Button
+2017-09-05 15:45:38 INFO  BasePage:34 - Element '[[ChromeDriver: chrome on XP (644811551962c0b795df9e3e3da1f479)] -> id: searchBtn]' is displayed.

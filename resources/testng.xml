@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll">
+
+	<test name="MMT">
+
+		<classes>
+			<class name="com.qait.tests.MMTTest"></class>
+		</classes>
+	</test>
+
+</suite>
